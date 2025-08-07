@@ -40,7 +40,6 @@ import { useLogging } from '../context/LoggingContext';
 // Import data
 import jobsData from '../data/jobs.json';
 import companiesData from '../data/companies.json';
-import skillsData from '../data/skills.json';
 
 const JobListings = () => {
   const [jobs, setJobs] = useState([]);
@@ -52,7 +51,6 @@ const JobListings = () => {
   const [skillFilter, setSkillFilter] = useState('');
   const [companyDialogOpen, setCompanyDialogOpen] = useState(false);
   const [selectedCompany, setSelectedCompany] = useState(null);
-  const [hoveredCompany, setHoveredCompany] = useState(null);
 
   const navigate = useNavigate();
   const { isAuthenticated } = useAuth();
@@ -163,7 +161,6 @@ const JobListings = () => {
       arrow
       placement="top"
       onOpen={() => {
-        setHoveredCompany(company);
         logAction('company_tooltip_hover', { companyId: company.id });
       }}
     >
@@ -182,8 +179,8 @@ const JobListings = () => {
         </Typography>
 
         {/* Search and Filters */}
-        <Grid container spacing={2} sx={{ mb: 3 }}>
-          <Grid item xs={12} md={3}>
+        <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2, mb: 3 }}>
+          <Box sx={{ flex: '1 1 300px', minWidth: '200px' }}>
             <TextField
               fullWidth
               placeholder="Search jobs..."
@@ -198,8 +195,8 @@ const JobListings = () => {
               }}
               data-testid="job-search-input"
             />
-          </Grid>
-          <Grid item xs={12} md={2}>
+          </Box>
+          <Box sx={{ flex: '1 1 150px', minWidth: '150px' }}>
             <FormControl fullWidth>
               <InputLabel>Location</InputLabel>
               <Select
@@ -214,8 +211,8 @@ const JobListings = () => {
                 ))}
               </Select>
             </FormControl>
-          </Grid>
-          <Grid item xs={12} md={2}>
+          </Box>
+          <Box sx={{ flex: '1 1 150px', minWidth: '150px' }}>
             <FormControl fullWidth>
               <InputLabel>Company</InputLabel>
               <Select
@@ -230,8 +227,8 @@ const JobListings = () => {
                 ))}
               </Select>
             </FormControl>
-          </Grid>
-          <Grid item xs={12} md={2}>
+          </Box>
+          <Box sx={{ flex: '1 1 150px', minWidth: '150px' }}>
             <FormControl fullWidth>
               <InputLabel>Skill</InputLabel>
               <Select
@@ -246,19 +243,19 @@ const JobListings = () => {
                 ))}
               </Select>
             </FormControl>
-          </Grid>
-          <Grid item xs={12} md={3}>
+          </Box>
+          <Box sx={{ flex: '1 1 150px', minWidth: '150px' }}>
             <Button 
               variant="outlined" 
               startIcon={<FilterList />}
               onClick={clearFilters}
               data-testid="clear-filters-button"
-              sx={{ height: '56px' }}
+              sx={{ height: '56px', width: '100%' }}
             >
               Clear Filters
             </Button>
-          </Grid>
-        </Grid>
+          </Box>
+        </Box>
 
         {/* Results count */}
         <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }} data-testid="results-count">
@@ -271,11 +268,15 @@ const JobListings = () => {
           No jobs found matching your criteria. Try adjusting your filters.
         </Alert>
       ) : (
-        <Grid container spacing={3}>
+        <Box sx={{ 
+          display: 'grid', 
+          gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))', 
+          gap: 3 
+        }}>
           {filteredJobs.map((job) => {
             const company = getCompanyById(job.companyId);
             return (
-              <Grid item xs={12} md={6} lg={4} key={job.id}>
+              <Box key={job.id}>
                 <Card 
                   sx={{ 
                     height: '100%',
@@ -406,10 +407,10 @@ const JobListings = () => {
                     </Button>
                   </CardActions>
                 </Card>
-              </Grid>
+              </Box>
             );
           })}
-        </Grid>
+        </Box>
       )}
 
       {/* Company Information Dialog with iframe */}
@@ -426,8 +427,8 @@ const JobListings = () => {
               {selectedCompany.name}
             </DialogTitle>
             <DialogContent>
-              <Grid container spacing={3}>
-                <Grid item xs={12} md={6}>
+              <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 3 }}>
+                <Box sx={{ flex: '1 1 300px' }}>
                   <Typography variant="body1" paragraph data-testid="company-dialog-description">
                     {selectedCompany.description}
                   </Typography>
@@ -443,8 +444,8 @@ const JobListings = () => {
                   <Typography variant="body2" color="text.secondary">
                     <strong>Location:</strong> {selectedCompany.location}
                   </Typography>
-                </Grid>
-                <Grid item xs={12} md={6}>
+                </Box>
+                <Box sx={{ flex: '1 1 300px' }}>
                   <Box 
                     sx={{ 
                       width: '100%', 
@@ -463,8 +464,8 @@ const JobListings = () => {
                       data-testid="company-info-iframe"
                     />
                   </Box>
-                </Grid>
-              </Grid>
+                </Box>
+              </Box>
             </DialogContent>
             <DialogActions>
               <Button 

@@ -1,68 +1,68 @@
 [
   {
     "id": 1,
-    "name": "TechCorp Solutions",
-    "description": "Leading technology company specializing in cloud solutions and enterprise software development.",
-    "location": "San Francisco, CA",
+    "name": "TechMahindra Solutions",
+    "description": "Leading IT services company specializing in software development and digital transformation.",
+    "location": "Bangalore, Karnataka",
     "industry": "Technology",
     "size": "1000-5000 employees",
-    "website": "https://techcorp.example.com",
+    "website": "https://techmahindra.example.com",
     "founded": "2010",
-    "logo": "https://via.placeholder.com/150x150?text=TechCorp"
+    "logo": "https://via.placeholder.com/150x150?text=TechMahindra"
   },
   {
     "id": 2,
-    "name": "DataWorks Analytics",
-    "description": "Premier data analytics and machine learning consultancy helping businesses make data-driven decisions.",
-    "location": "New York, NY",
+    "name": "DataMining Consultancy",
+    "description": "Data analytics firm helping businesses make informed decisions through insights.",
+    "location": "Mumbai, Maharashtra",
     "industry": "Data Analytics",
     "size": "500-1000 employees",
-    "website": "https://dataworks.example.com",
+    "website": "https://datamining.example.com",
     "founded": "2015",
-    "logo": "https://via.placeholder.com/150x150?text=DataWorks"
+    "logo": "https://via.placeholder.com/150x150?text=DataMining"
   },
   {
     "id": 3,
-    "name": "FinanceFlow Inc",
-    "description": "Innovative fintech company developing next-generation payment solutions and financial services.",
-    "location": "Chicago, IL",
+    "name": "FinanceFirst Ltd",
+    "description": "Fintech company developing payment solutions for Indian market.",
+    "location": "Hyderabad, Telangana",
     "industry": "Financial Services",
     "size": "200-500 employees",
-    "website": "https://financeflow.example.com",
+    "website": "https://financefirst.example.com",
     "founded": "2018",
-    "logo": "https://via.placeholder.com/150x150?text=FinanceFlow"
+    "logo": "https://via.placeholder.com/150x150?text=FinanceFirst"
   },
   {
     "id": 4,
-    "name": "HealthTech Innovations",
-    "description": "Healthcare technology company revolutionizing patient care through AI and digital health solutions.",
-    "location": "Boston, MA",
+    "name": "HealthCare Innovations",
+    "description": "Healthcare technology company improving patient care through digital solutions.",
+    "location": "Chennai, Tamil Nadu",
     "industry": "Healthcare Technology",
     "size": "100-500 employees",
-    "website": "https://healthtech.example.com",
+    "website": "https://healthcare.example.com",
     "founded": "2019",
-    "logo": "https://via.placeholder.com/150x150?text=HealthTech"
+    "logo": "https://via.placeholder.com/150x150?text=HealthCare"
   },
   {
     "id": 5,
-    "name": "GreenEnergy Systems",
-    "description": "Sustainable energy company focused on renewable energy solutions and smart grid technologies.",
-    "location": "Austin, TX",
+    "name": "GreenTech Systems",
+    "description": "Renewable energy company focused on sustainable solutions for India.",
+    "location": "Pune, Maharashtra",
     "industry": "Renewable Energy",
     "size": "300-1000 employees",
-    "website": "https://greenenergy.example.com",
+    "website": "https://greentech.example.com",
     "founded": "2012",
-    "logo": "https://via.placeholder.com/150x150?text=GreenEnergy"
+    "logo": "https://via.placeholder.com/150x150?text=GreenTech"
   },
   {
     "id": 6,
-    "name": "EduLearn Platform",
-    "description": "Educational technology company creating innovative online learning platforms and educational content.",
-    "location": "Seattle, WA",
+    "name": "EduTech Platform",
+    "description": "Online learning company creating educational content for Indian students.",
+    "location": "Delhi, NCR",
     "industry": "Education Technology",
     "size": "150-300 employees",
-    "website": "https://edulearn.example.com",
+    "website": "https://edutech.example.com",
     "founded": "2017",
-    "logo": "https://via.placeholder.com/150x150?text=EduLearn"
+    "logo": "https://via.placeholder.com/150x150?text=EduTech"
   }
 ]
