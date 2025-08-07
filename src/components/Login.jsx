@@ -20,6 +20,7 @@ const Login = () => {
     captchaAnswer: ''
   });
   const [captchaValue, setCaptchaValue] = useState(0);
+  const [captchaNumbers, setCaptchaNumbers] = useState({ num1: 0, num2: 0 });
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   
@@ -33,6 +34,7 @@ const Login = () => {
     const num2 = Math.floor(Math.random() * 50) + 1;
     const result = num1 + num2;
     setCaptchaValue(result);
+    setCaptchaNumbers({ num1, num2 });
     return { num1, num2, result };
   };
 
@@ -43,20 +45,13 @@ const Login = () => {
 
   // Generate SVG captcha image
   const generateCaptchaSVG = () => {
-    const { num1, num2 } = (() => {
-      const num1 = Math.floor(Math.random() * 50) + 1;
-      const num2 = Math.floor(Math.random() * 50) + 1;
-      setCaptchaValue(num1 + num2);
-      return { num1, num2 };
-    })();
-
     return (
       <svg 
         width="200" 
         height="60" 
         viewBox="0 0 200 60" 
         data-testid="captcha-svg"
-        data-captcha-answer={num1 + num2}
+        data-captcha-answer={captchaValue}
         style={{ border: '1px solid #ccc', borderRadius: '4px', backgroundColor: '#f9f9f9' }}
       >
         {/* Background noise lines */}
@@ -73,7 +68,7 @@ const Login = () => {
           fontFamily="Arial, sans-serif"
           fontWeight="bold"
         >
-          {num1} + {num2} = ?
+          {captchaNumbers.num1} + {captchaNumbers.num2} = ?
         </text>
         
         {/* Background dots */}
