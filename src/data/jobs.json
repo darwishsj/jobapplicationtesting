@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "title": "Senior Full Stack Developer",
+    "companyId": 1,
+    "location": "San Francisco, CA",
+    "type": "Full-time",
+    "salary": "$120,000 - $180,000",
+    "description": "We are seeking a highly skilled Senior Full Stack Developer to join our dynamic team. You will be responsible for developing and maintaining web applications using modern technologies including React, Node.js, and cloud services. The ideal candidate has 5+ years of experience in full-stack development and is passionate about creating scalable, high-performance applications.",
+    "requirements": [
+      "5+ years of experience in full-stack development",
+      "Proficiency in React, Node.js, and JavaScript/TypeScript",
+      "Experience with cloud platforms (AWS, Azure, or GCP)",
+      "Strong understanding of RESTful APIs and microservices",
+      "Bachelor's degree in Computer Science or related field"
+    ],
+    "skills": ["JavaScript", "React", "Node.js", "AWS", "TypeScript"],
+    "postedDate": "2024-01-15",
+    "applicationDeadline": "2024-02-15"
+  },
+  {
+    "id": 2,
+    "title": "Data Scientist",
+    "companyId": 2,
+    "location": "New York, NY",
+    "type": "Full-time",
+    "salary": "$100,000 - $150,000",
+    "description": "Join our data science team to analyze complex datasets and build machine learning models that drive business insights. You'll work with cutting-edge technologies and collaborate with cross-functional teams to deliver data-driven solutions. Experience with Python, machine learning frameworks, and statistical analysis is essential.",
+    "requirements": [
+      "Master's degree in Data Science, Statistics, or related field",
+      "3+ years of experience in data science or analytics",
+      "Proficiency in Python, R, and SQL",
+      "Experience with machine learning frameworks (TensorFlow, PyTorch)",
+      "Strong statistical analysis and data visualization skills"
+    ],
+    "skills": ["Python", "Machine Learning", "SQL", "TensorFlow", "Data Analysis"],
+    "postedDate": "2024-01-18",
+    "applicationDeadline": "2024-02-18"
+  },
+  {
+    "id": 3,
+    "title": "Frontend Developer",
+    "companyId": 1,
+    "location": "Remote",
+    "type": "Full-time",
+    "salary": "$90,000 - $130,000",
+    "description": "We're looking for a talented Frontend Developer to create beautiful, responsive, and user-friendly interfaces. You'll work closely with our design and backend teams to implement pixel-perfect designs and ensure excellent user experiences across all devices and browsers.",
+    "requirements": [
+      "3+ years of frontend development experience",
+      "Expert knowledge of HTML, CSS, and JavaScript",
+      "Proficiency in React or Vue.js",
+      "Experience with responsive design and CSS frameworks",
+      "Understanding of version control (Git) and build tools"
+    ],
+    "skills": ["JavaScript", "React", "HTML/CSS", "Git", "Vue.js"],
+    "postedDate": "2024-01-20",
+    "applicationDeadline": "2024-02-20"
+  },
+  {
+    "id": 4,
+    "title": "DevOps Engineer",
+    "companyId": 3,
+    "location": "Chicago, IL",
+    "type": "Full-time",
+    "salary": "$110,000 - $160,000",
+    "description": "Seeking an experienced DevOps Engineer to help scale our infrastructure and improve our deployment processes. You'll be responsible for implementing CI/CD pipelines, managing cloud infrastructure, and ensuring high availability of our systems. Strong automation and scripting skills are required.",
+    "requirements": [
+      "4+ years of DevOps or infrastructure experience",
+      "Proficiency with AWS or Azure cloud platforms",
+      "Experience with containerization (Docker, Kubernetes)",
+      "Knowledge of Infrastructure as Code (Terraform, CloudFormation)",
+      "Strong scripting skills (Bash, Python, or PowerShell)"
+    ],
+    "skills": ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform"],
+    "postedDate": "2024-01-22",
+    "applicationDeadline": "2024-02-22"
+  },
+  {
+    "id": 5,
+    "title": "Backend Developer",
+    "companyId": 4,
+    "location": "Boston, MA",
+    "type": "Full-time",
+    "salary": "$95,000 - $140,000",
+    "description": "Join our backend team to build robust, scalable APIs and services that power our healthcare applications. You'll work with modern technologies and help design systems that handle sensitive medical data with the highest security standards. Experience with Java or Python and database design is essential.",
+    "requirements": [
+      "3+ years of backend development experience",
+      "Proficiency in Java, Python, or C#",
+      "Experience with relational databases (PostgreSQL, MySQL)",
+      "Knowledge of API design and microservices architecture",
+      "Understanding of security best practices"
+    ],
+    "skills": ["Java", "Python", "PostgreSQL", "REST APIs", "Microservices"],
+    "postedDate": "2024-01-25",
+    "applicationDeadline": "2024-02-25"
+  },
+  {
+    "id": 6,
+    "title": "Mobile App Developer",
+    "companyId": 5,
+    "location": "Austin, TX",
+    "type": "Full-time",
+    "salary": "$85,000 - $125,000",
+    "description": "We're looking for a skilled Mobile App Developer to create innovative mobile applications for our renewable energy platform. You'll develop cross-platform mobile apps using React Native or Flutter, integrate with IoT devices, and work on location-based features for energy monitoring.",
+    "requirements": [
+      "3+ years of mobile app development experience",
+      "Proficiency in React Native, Flutter, or native iOS/Android",
+      "Experience with mobile app deployment and app store processes",
+      "Knowledge of REST APIs and mobile-specific performance optimization",
+      "Understanding of mobile UI/UX best practices"
+    ],
+    "skills": ["React", "JavaScript", "Mobile Development", "REST APIs", "Git"],
+    "postedDate": "2024-01-28",
+    "applicationDeadline": "2024-02-28"
+  },
+  {
+    "id": 7,
+    "title": "Product Manager",
+    "companyId": 6,
+    "location": "Seattle, WA",
+    "type": "Full-time",
+    "salary": "$120,000 - $170,000",
+    "description": "Lead product strategy and development for our educational technology platform. You'll work with engineering, design, and business teams to define product roadmaps, gather user feedback, and drive product decisions that impact millions of learners worldwide.",
+    "requirements": [
+      "5+ years of product management experience",
+      "Experience in EdTech or SaaS products",
+      "Strong analytical and data-driven decision making skills",
+      "Excellent communication and leadership abilities",
+      "MBA or relevant advanced degree preferred"
+    ],
+    "skills": ["Project Management", "Leadership", "Communication", "Data Analysis", "Agile"],
+    "postedDate": "2024-01-30",
+    "applicationDeadline": "2024-03-01"
+  },
+  {
+    "id": 8,
+    "title": "UX/UI Designer",
+    "companyId": 2,
+    "location": "New York, NY",
+    "type": "Full-time",
+    "salary": "$80,000 - $120,000",
+    "description": "Create intuitive and engaging user experiences for our data analytics platform. You'll conduct user research, create wireframes and prototypes, and collaborate with developers to implement designs that make complex data accessible and actionable for our users.",
+    "requirements": [
+      "3+ years of UX/UI design experience",
+      "Proficiency in design tools (Figma, Sketch, Adobe Creative Suite)",
+      "Experience with user research and usability testing",
+      "Strong portfolio demonstrating design process and outcomes",
+      "Knowledge of front-end technologies is a plus"
+    ],
+    "skills": ["Design", "User Research", "Prototyping", "Communication", "Problem Solving"],
+    "postedDate": "2024-02-01",
+    "applicationDeadline": "2024-03-03"
+  },
+  {
+    "id": 9,
+    "title": "Cloud Architect",
+    "companyId": 3,
+    "location": "Remote",
+    "type": "Full-time",
+    "salary": "$140,000 - $200,000",
+    "description": "Design and implement cloud architecture solutions for our fintech platform. You'll be responsible for ensuring scalability, security, and cost-effectiveness of our cloud infrastructure while maintaining compliance with financial industry regulations.",
+    "requirements": [
+      "7+ years of cloud architecture experience",
+      "Expert knowledge of AWS, Azure, or Google Cloud",
+      "Experience with financial services and compliance requirements",
+      "Strong understanding of security best practices",
+      "Relevant cloud certifications preferred"
+    ],
+    "skills": ["AWS", "Azure", "Cloud Architecture", "Security", "Compliance"],
+    "postedDate": "2024-02-03",
+    "applicationDeadline": "2024-03-05"
+  },
+  {
+    "id": 10,
+    "title": "Machine Learning Engineer",
+    "companyId": 4,
+    "location": "Boston, MA",
+    "type": "Full-time",
+    "salary": "$130,000 - $180,000",
+    "description": "Deploy and maintain machine learning models in production for our healthcare AI platform. You'll work on computer vision, natural language processing, and predictive analytics models that help improve patient outcomes and clinical decision-making.",
+    "requirements": [
+      "4+ years of machine learning engineering experience",
+      "Proficiency in Python and ML frameworks (TensorFlow, PyTorch)",
+      "Experience with MLOps and model deployment",
+      "Knowledge of healthcare data and HIPAA compliance",
+      "Advanced degree in Computer Science, AI, or related field"
+    ],
+    "skills": ["Python", "Machine Learning", "TensorFlow", "PyTorch", "MLOps"],
+    "postedDate": "2024-02-05",
+    "applicationDeadline": "2024-03-07"
+  },
+  {
+    "id": 11,
+    "title": "Quality Assurance Engineer",
+    "companyId": 5,
+    "location": "Austin, TX",
+    "type": "Full-time",
+    "salary": "$70,000 - $100,000",
+    "description": "Ensure the quality and reliability of our renewable energy monitoring systems through comprehensive testing strategies. You'll develop automated test suites, perform manual testing, and work closely with development teams to identify and resolve issues.",
+    "requirements": [
+      "3+ years of QA engineering experience",
+      "Experience with test automation frameworks (Selenium, Cypress)",
+      "Knowledge of API testing and performance testing",
+      "Understanding of software development lifecycle",
+      "Experience with IoT or embedded systems testing preferred"
+    ],
+    "skills": ["Test Automation", "Selenium", "API Testing", "Quality Assurance", "Problem Solving"],
+    "postedDate": "2024-02-07",
+    "applicationDeadline": "2024-03-09"
+  },
+  {
+    "id": 12,
+    "title": "Cybersecurity Analyst",
+    "companyId": 6,
+    "location": "Remote",
+    "type": "Full-time",
+    "salary": "$90,000 - $130,000",
+    "description": "Protect our educational platform and student data through proactive security monitoring and incident response. You'll implement security controls, conduct vulnerability assessments, and ensure compliance with data protection regulations.",
+    "requirements": [
+      "3+ years of cybersecurity experience",
+      "Knowledge of security frameworks and compliance standards",
+      "Experience with security tools and SIEM platforms",
+      "Understanding of network security and encryption",
+      "Security certifications (CISSP, CISM, etc.) preferred"
+    ],
+    "skills": ["Cybersecurity", "Network Security", "Compliance", "Risk Assessment", "Incident Response"],
+    "postedDate": "2024-02-10",
+    "applicationDeadline": "2024-03-12"
+  }
+]

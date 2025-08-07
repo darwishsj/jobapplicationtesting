@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "TechCorp Solutions",
+    "description": "Leading technology company specializing in cloud solutions and enterprise software development.",
+    "location": "San Francisco, CA",
+    "industry": "Technology",
+    "size": "1000-5000 employees",
+    "website": "https://techcorp.example.com",
+    "founded": "2010",
+    "logo": "https://via.placeholder.com/150x150?text=TechCorp"
+  },
+  {
+    "id": 2,
+    "name": "DataWorks Analytics",
+    "description": "Premier data analytics and machine learning consultancy helping businesses make data-driven decisions.",
+    "location": "New York, NY",
+    "industry": "Data Analytics",
+    "size": "500-1000 employees",
+    "website": "https://dataworks.example.com",
+    "founded": "2015",
+    "logo": "https://via.placeholder.com/150x150?text=DataWorks"
+  },
+  {
+    "id": 3,
+    "name": "FinanceFlow Inc",
+    "description": "Innovative fintech company developing next-generation payment solutions and financial services.",
+    "location": "Chicago, IL",
+    "industry": "Financial Services",
+    "size": "200-500 employees",
+    "website": "https://financeflow.example.com",
+    "founded": "2018",
+    "logo": "https://via.placeholder.com/150x150?text=FinanceFlow"
+  },
+  {
+    "id": 4,
+    "name": "HealthTech Innovations",
+    "description": "Healthcare technology company revolutionizing patient care through AI and digital health solutions.",
+    "location": "Boston, MA",
+    "industry": "Healthcare Technology",
+    "size": "100-500 employees",
+    "website": "https://healthtech.example.com",
+    "founded": "2019",
+    "logo": "https://via.placeholder.com/150x150?text=HealthTech"
+  },
+  {
+    "id": 5,
+    "name": "GreenEnergy Systems",
+    "description": "Sustainable energy company focused on renewable energy solutions and smart grid technologies.",
+    "location": "Austin, TX",
+    "industry": "Renewable Energy",
+    "size": "300-1000 employees",
+    "website": "https://greenenergy.example.com",
+    "founded": "2012",
+    "logo": "https://via.placeholder.com/150x150?text=GreenEnergy"
+  },
+  {
+    "id": 6,
+    "name": "EduLearn Platform",
+    "description": "Educational technology company creating innovative online learning platforms and educational content.",
+    "location": "Seattle, WA",
+    "industry": "Education Technology",
+    "size": "150-300 employees",
+    "website": "https://edulearn.example.com",
+    "founded": "2017",
+    "logo": "https://via.placeholder.com/150x150?text=EduLearn"
+  }
+]
